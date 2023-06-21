@@ -1,15 +1,27 @@
 body {
-    background-color: #dfe4e0;
-}
-
-body {
     margin:40px auto;
     max-width:350px;
     font-size:18px;
-    color:#444;
+    background-color: #dfe4e0;
     padding:0 10px;
     display: table-cell;
     vertical-align: middle;
+}
+
+.container {
+    display: grid;
+    align-items: center; 
+    grid-template-columns:0.6fr 0.6fr 0.6fr;
+    column-gap: 5px;
+   }
+   
+   img {
+     max-width: 100%;
+     max-height:100%;
+   }
+   
+.text {
+    padding-left: 5px;
 }
 
 html {
