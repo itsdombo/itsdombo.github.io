@@ -1,0 +1,26 @@
+.projHeader {
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 5px;
+    font-style: normal;
+}
+
+.projDate {
+    line-height: 1px;
+    font-size: 16px;
+    font-style: italic;
+    color: #506050;
+}
+
+.projDescription {
+    font-style: normal;
+}
+
+a {
+    color: #304030;
+}
+
+.projHeader a:hover {
+    color: #506050;
+    text-decoration: underline;
+  }
