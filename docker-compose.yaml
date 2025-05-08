@@ -2,8 +2,25 @@ services:
   jekyll-site:
     image: jekyll-site
     build: .
-    volumes: [ .:/usr/src/app ]
-    ports: [ 4000:4000 ]
-    user: 1000:1000
-    environment: [ JEKYLL_ENV=docker ]
-    command: jekyll serve -H 0.0.0.0 -w --config _config.yml, _config_docker.yml
+    volumes:
+      - .:/usr/src/app
+    ports:
+      - "4000:4000"
+      - "35730:35730"
+    user: "1000:1000"
+    environment:
+      - JEKYLL_ENV=docker
+    command: bundle exec jekyll serve -w -l --livereload-port 35730 --force_polling -H 0.0.0.0 --config _config.yml,_config_docker.yml
+    develop:
+      watch:
+        - action: sync
+          path: .
+          target: /usr/src/app
+          ignore:
+            - _site/
+            - .git/
+            - .sass-cache/
+            - node_modules/
+            - vendor/
+        # - action: rebuild
+        #   path: Gemfile.lock
