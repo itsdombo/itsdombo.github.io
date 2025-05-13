@@ -3,16 +3,16 @@
    ========================================================================== */
 
 /* Color codes used for the theme */
-$gray                       : #7a8288;
+$gray                       : #778a7b;
 $dark-gray                  : mix(#000, $gray, 40%);
 $darker-gray                : mix(#000, $gray, 60%);
 $light-gray                 : mix(#fff, $gray, 50%);
 
-$background                 : #1a1a1a;
+$background                 : #121a13;
 $background-light           : mix(#fff, $background, 80%);
 $background-lighter         : mix(#fff, $background, 90%);
-$text                       : #f0f0f0;
-$link                       : #61c0d7;
+$text                       : #d6f2db;
+$link                       : #61d76b;
 $link-dark                  : mix(#000, $link, 25%);
 $link-light                 : mix(#fff, $link, 25%);
 
