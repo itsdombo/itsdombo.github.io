@@ -9,7 +9,7 @@ redirect_from:
 
 - Studying Computer Engineering at The University of British Columbia.<br>
 - Current Captain at [UBC Biological Internet of Things](https://ubcbiot.com/).<br>
-- Incoming Vice President of Student Life at the [Electrical and Computer Engineering Student Society](https://www.ecess.ca/).
+- Current Vice President of Student Life at the [Electrical and Computer Engineering Student Society](https://www.ecess.ca/).
 
 About me
 ======
